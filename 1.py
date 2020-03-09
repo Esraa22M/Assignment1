@@ -14,7 +14,7 @@ class  ClassicalCiphers :
     def writeCipher(self):
         i = 0
 
-        with open('output.txt', 'w') as f:
+        with open(self.outputFile +".txt", 'w') as f:
 
                 f.write(''.join(self.cipherText))
 
