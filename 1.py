@@ -212,6 +212,5 @@ if __name__ == "__main__":
 
 
     #p.readPlainText()
-    p.vigenereDE(keys[0])
 
 
